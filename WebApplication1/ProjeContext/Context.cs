@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApplication1.Entity;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace MuratYucedag_KatmanliMimari.ProjeContext
+namespace WebApplication1.ProjeContext
 {
     public class Context : DbContext
     {

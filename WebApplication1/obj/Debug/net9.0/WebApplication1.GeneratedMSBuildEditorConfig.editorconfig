@@ -24,12 +24,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxEZW5lbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Furkan/GitHub/MuratYücedağ/MuratYucedag-KatmanliMimari/WebApplication1/Views/Default/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Furkan/GitHub/MuratYücedağ/MuratYucedag-KatmanliMimari/WebApplication1/Views/Default/Urunler.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxVcnVubGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Furkan/GitHub/MuratYücedağ/MuratYucedag-KatmanliMimari/WebApplication1/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Furkan/GitHub/MuratYücedağ/MuratYucedag-KatmanliMimari/WebApplication1/Views/Shared/_CoreLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db3JlTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Furkan/GitHub/MuratYücedağ/MuratYucedag-KatmanliMimari/WebApplication1/Views/_ViewImports.cshtml]
