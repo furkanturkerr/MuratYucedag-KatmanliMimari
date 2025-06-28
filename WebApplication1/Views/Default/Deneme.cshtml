@@ -1,0 +1,34 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<h1>Burası Şehir Paaneli</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ülke</th>
+        <th>Şehir</th>
+        <th>Nüfus</th>
+    </tr>
+    <tr>
+        <th>@ViewBag.v1</th>
+        <th>@ViewBag.v2</th>
+        <th>@ViewBag.v3</th>
+        <th>@ViewBag.v4</th>
+        <td>@ViewBag.v5 - @ViewBag.v6 - @ViewBag.v7</td>
+    </tr>
+    <tr>
+        <th>@ViewBag.z1</th>
+        <th>@ViewBag.z2</th>
+        <th>@ViewBag.z3</th>
+        <th>@ViewBag.z4</th>
+        <td>@ViewBag.z5 - @ViewBag.z6 - @ViewBag.z7</td>   
+    </tr>
+</table>
+
+<a href="/Default/Urunler/" class="btn btn-info">Ürünler Sayfası</a>
