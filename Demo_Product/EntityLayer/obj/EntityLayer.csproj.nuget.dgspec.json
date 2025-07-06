@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Furkan\\Proje ve Dersler\\Murat Yücedağ\\Demo_Product\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo_Product\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Furkan\\Proje ve Dersler\\Murat Yücedağ\\Demo_Product\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo_Product\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat Yücedağ\\Demo_Product\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo_Product\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat Yücedağ\\Demo_Product\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo_Product\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat Yücedağ\\Demo_Product\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo_Product\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Furkan\\AppData\\Roaming\\NuGet\\NuGet.Config"
