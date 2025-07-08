@@ -26,6 +26,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
               "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo\\EntityLayer\\EntityLayer.csproj": {
                 "projectPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Murat-Yucedag\\Demo\\EntityLayer\\EntityLayer.csproj"
               }
@@ -46,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -199,6 +208,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
