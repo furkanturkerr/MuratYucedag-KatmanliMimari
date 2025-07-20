@@ -1,12 +1,16 @@
+using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Controllers;
 
 public class ProductController : Controller
 {
-    // GET
+    ProductManager productManager = new ProductManager(new EfProductDal());
+    
     public IActionResult Index()
     {
-        return View();
+        var values = productManager.TList();
+        return View(values);
     }
 }
