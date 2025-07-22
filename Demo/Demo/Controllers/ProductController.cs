@@ -43,4 +43,25 @@ public class ProductController : Controller
         }
         return View();
     }
+
+    public IActionResult DeleteProduct(int id)
+    {
+        var value = productManager.TGetById(id);
+        productManager.TDelete(value);
+        return RedirectToAction("Index");
+    }
+    
+    [HttpGet]
+    public IActionResult UpdateProduct(int id)
+    {
+        var value = productManager.TGetById(id);
+        return View(value);
+    }
+    
+    [HttpPost]
+    public IActionResult UpdateProduct(Product p)
+    {
+        productManager.TUpdate(p);
+        return RedirectToAction("Index");
+    }
 }
