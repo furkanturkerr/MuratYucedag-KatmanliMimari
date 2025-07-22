@@ -1,0 +1,25 @@
+@using EntityLayer
+@model List<EntityLayer.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UILayoult.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Müşteri Adı</th>
+        <th>Şehri</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.City</td>
+            <td><a href="/Customer/DeleteCustomer/@item.Id" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Customer/UpdateCustomer/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+        </tr>
+    }
+</table>
