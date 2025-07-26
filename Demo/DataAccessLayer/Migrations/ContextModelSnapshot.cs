@@ -50,13 +50,35 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("JobId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("JobId");
+
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("EntityLayer.Job", b =>
+                {
+                    b.Property<int>("JobId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("JobId"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("JobId");
+
+                    b.ToTable("Jobs");
                 });
 
             modelBuilder.Entity("EntityLayer.Product", b =>
@@ -80,6 +102,22 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("EntityLayer.Customer", b =>
+                {
+                    b.HasOne("EntityLayer.Job", "Job")
+                        .WithMany("customers")
+                        .HasForeignKey("JobId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Job");
+                });
+
+            modelBuilder.Entity("EntityLayer.Job", b =>
+                {
+                    b.Navigation("customers");
                 });
 #pragma warning restore 612, 618
         }

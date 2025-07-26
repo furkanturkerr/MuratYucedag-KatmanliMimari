@@ -16,6 +16,10 @@
     @Html.TextBoxFor(x => x.City, new {@class = "form-control"})
     @Html.ValidationMessageFor(x=> x.City)
     <br/>
+    @Html.Label("Müşteri Mesleği")
+    @Html.TextBoxFor(x => x.JobId, new {@class = "form-control"})
+    @Html.TextBoxFor(x => x.Job, new{@class="form-control"})
+    <br/>
     <button class="btn btn-success">Kaydet</button>
 </form>
 

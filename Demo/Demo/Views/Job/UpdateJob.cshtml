@@ -1,0 +1,18 @@
+@model EntityLayer.Job
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UILayoult.cshtml";
+}
+
+<H1>Meslek Güncelle</H1>
+
+<form method="post">
+    @Html.Label("Id")
+    @Html.TextBoxFor(x => x.JobId, new { @class = "form-control" })
+    <br/>
+    @Html.Label("Meslek Adı")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br/>
+    <button class="btn btn-success">Güncelle</button>
+</form>

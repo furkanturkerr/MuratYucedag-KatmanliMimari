@@ -20,7 +20,6 @@ public class ProductController : Controller
     [HttpGet]
     public IActionResult AddProduct()
     {
-        
         return View();
     }
 
