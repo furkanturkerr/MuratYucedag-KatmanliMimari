@@ -36,4 +36,9 @@ public class CustomerManager:ICustomerService
     {
         return _customerDal.GetById(id);
     }
+
+    public List<Customer> GetCustomersListWithJob()
+    {
+        return _customerDal.GetCustomerListWithJob();
+    }
 }

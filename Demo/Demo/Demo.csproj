@@ -26,4 +26,28 @@
       <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="Views\Customer\AddCustomer.cshtml" />
+      <None Include="Views\Customer\Index.cshtml" />
+      <None Include="Views\Customer\UpdateCustomer.cshtml" />
+      <None Include="Views\Home\Index.cshtml" />
+      <None Include="Views\Home\Privacy.cshtml" />
+      <None Include="Views\Job\AddJob.cshtml" />
+      <None Include="Views\Job\Index.cshtml" />
+      <None Include="Views\Job\UpdateJob.cshtml" />
+      <None Include="Views\Partials\Partel_Header.cshtml" />
+      <None Include="Views\Partials\Partial_Footer.cshtml" />
+      <None Include="Views\Partials\Partial_Navbar.cshtml" />
+      <None Include="Views\Partials\Partial_Sidebar.cshtml" />
+      <None Include="Views\Product\AddProduct.cshtml" />
+      <None Include="Views\Product\Index.cshtml" />
+      <None Include="Views\Product\UpdateProduct.cshtml" />
+      <None Include="Views\Shared\Error.cshtml" />
+      <None Include="Views\Shared\UILayoult.cshtml" />
+      <None Include="Views\Shared\_Layout.cshtml" />
+      <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+      <None Include="Views\_ViewImports.cshtml" />
+      <None Include="Views\_ViewStart.cshtml" />
+    </ItemGroup>
+
 </Project>

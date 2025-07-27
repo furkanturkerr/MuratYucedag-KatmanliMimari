@@ -4,8 +4,6 @@ C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.A
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.AssemblyInfo.cs
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.csproj.CoreCompileInputs.cache
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.RazorAssemblyInfo.cache
-C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.RazorAssemblyInfo.cs
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.sourcelink.json
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\appsettings.json
@@ -133,12 +131,14 @@ C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\static
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Demo.props
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Demo.props
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\bundle\Demo.styles.css
-C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\projectbundle\Demo.bundle.scp.css
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.csproj.Up2Date
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.dll
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\refint\Demo.dll
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.pdb
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.genruntimeconfig.cache
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\ref\Demo.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.RazorAssemblyInfo.cache
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.RazorAssemblyInfo.cs
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\projectbundle\Demo.bundle.scp.css
