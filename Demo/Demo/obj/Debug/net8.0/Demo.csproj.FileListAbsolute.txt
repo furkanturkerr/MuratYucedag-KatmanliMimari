@@ -142,3 +142,14 @@ C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.R
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\Demo.RazorAssemblyInfo.cs
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\obj\Debug\net8.0\scopedcss\projectbundle\Demo.bundle.scp.css
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\Furkan\Proje ve Dersler\Murat-Yucedag\Demo\Demo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
