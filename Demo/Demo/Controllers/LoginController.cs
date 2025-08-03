@@ -1,9 +1,11 @@
 using Demo.Models;
 using EntityLayer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Controllers;
+[AllowAnonymous]
 
 public class LoginController : Controller
 {
