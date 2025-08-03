@@ -3,6 +3,7 @@ using Demo.Models;
 using EntityLayer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,12 @@ builder.Services.AddMvcCore(config =>
         .RequireAuthenticatedUser()
         .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
+});
+
+// Çıkış Yaparsak diğer sayfalara girmeye çalışsakta logine gider
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Login/Index";
 });
 
 var app = builder.Build();

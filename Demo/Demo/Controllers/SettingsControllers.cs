@@ -24,4 +24,16 @@ public class SettingsControllers : Controller
             userEditViewModel.Email = values.Email;
         return View(userEditViewModel);
     }
+    
+    [HttpPost]
+    public async Task <IActionResult> Index(UserEditViewModel userEditViewModel)
+    {
+        var user = await _userManager.FindByNameAsync(User.Identity.Name);
+        user.Name = userEditViewModel.Name;
+        user.Surname = userEditViewModel.SurName;
+        user.Email = userEditViewModel.Email;
+        user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, userEditViewModel.Password);
+        await _userManager.UpdateAsync(user);
+        return RedirectToAction("Index", "Product"); 
+    }
 }

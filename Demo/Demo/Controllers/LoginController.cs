@@ -39,4 +39,10 @@ public class LoginController : Controller
         }
         return View();
     }
+    
+    public async Task<IActionResult> LogOut()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("Index", "Login");
+    }
 }
