@@ -4,7 +4,7 @@ using EntityLayer;
 
 namespace BusinessLayer.Concrete;
 
-public class CustomerManager:ICustomerService
+public class CustomerManager: IGenericService<Customer>
 {
     ICustomerDal _customerDal;
     public CustomerManager(ICustomerDal customerDal)

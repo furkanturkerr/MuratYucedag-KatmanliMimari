@@ -4,7 +4,7 @@ using EntityLayer;
 
 namespace BusinessLayer.Concrete;
 
-public class JobManager : IJobService
+public class JobManager : IGenericService<Job>
 {
     IJobDal _jobDal;
 
